@@ -36,6 +36,7 @@ You can stream video from your webcam or an RTSP source using a Python script wi
 
 ### Running the Script
 Use the following command to run the script:
+#### This is a smiple script to show the stream.
 ```bash
 python3 gstreamer_webcam_rtsp.py --source 0
 ```
