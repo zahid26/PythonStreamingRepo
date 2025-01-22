@@ -30,6 +30,17 @@ After the installation, verify that GStreamer is correctly installed by running 
 gst-launch-1.0 --version
 ```
 This should output the installed version of GStreamer.
+Somewhat like this, might be different according to the version.
+```bash
+gst-launch-1.0 version 1.20.3
+GStreamer 1.20.3
+https://launchpad.net/distros/ubuntu/+source/gstreamer1.0
+```
+### Clone the repo.
+Start building cool things.
+```bash
+git clone https://github.com/zahid26/PythonStreamingRepo.git
+```
 
 ## Running a Python Script for Streaming
 You can stream video from your webcam or an RTSP source using a Python script with GStreamer. Ensure you have Python 3 installed on your system.
@@ -40,6 +51,11 @@ This is a smiple script to show the stream.
 ```bash
 python3 gstreamer_webcam_rtsp.py --source 0
 ```
+In this script i have added flask functionlities to Gstreamer with pause and play options- you can run the script and play along.
+```bash
+python3 flask_gstream_localvideo.py --source 0
+```
+
 Replace `--source 0` with the appropriate RTSP link or device ID if needed.
 
 ### Notes
