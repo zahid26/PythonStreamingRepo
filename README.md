@@ -56,7 +56,7 @@ In this script i have added flask functionlities to Gstreamer with pause and pla
 python3 flask_gstream_localvideo.py --source 0
 ```
 
-Replace `--source 0` with the appropriate RTSP link or device ID if needed.
+Replace `--source 0` with the appropriate local video path.
 
 ### Notes
 - `--source 0` specifies the default webcam on your system.
